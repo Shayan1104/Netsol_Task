@@ -1,0 +1,29 @@
+{
+    "generated_at": "2026-09-29 12:22:48.243789",
+    "profile_summary": {
+        "rows": 5572,
+        "columns": 5,
+        "missing_values": {
+            "v1": 0,
+            "v2": 0,
+            "Unnamed: 2": 5522,
+            "Unnamed: 3": 5560,
+            "Unnamed: 4": 5566
+        },
+        "data_types": {
+            "v1": "str",
+            "v2": "str",
+            "Unnamed: 2": "str",
+            "Unnamed: 3": "str",
+            "Unnamed: 4": "str"
+        },
+        "duplicate_rows": 403,
+        "unique_values": {
+            "v1": 2,
+            "v2": 5169,
+            "Unnamed: 2": 43,
+            "Unnamed: 3": 10,
+            "Unnamed: 4": 5
+        }
+    }
+}

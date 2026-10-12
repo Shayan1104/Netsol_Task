@@ -1,0 +1,72 @@
+{
+  "regression": [
+    {
+      "model": "Linear Regression",
+      "r2_train": 0.4704,
+      "r2_test": 0.575,
+      "mae": 14880703.45,
+      "rmse": 45716532.77
+    },
+    {
+      "model": "Polynomial Regression (d=2)",
+      "r2_train": 0.7618,
+      "r2_test": 0.4533,
+      "mae": 9541427.14,
+      "rmse": 51848943.64
+    },
+    {
+      "model": "KNN",
+      "r2_train": 0.5525,
+      "r2_test": 0.376,
+      "mae": 10919150.76,
+      "rmse": 55392017.23
+    },
+    {
+      "model": "SVR",
+      "r2_train": -0.067,
+      "r2_test": -0.0366,
+      "mae": 18340404.01,
+      "rmse": 71396056.43
+    },
+    {
+      "model": "Decision Tree",
+      "r2_train": 0.6935,
+      "r2_test": 0.5303,
+      "mae": 8873496.78,
+      "rmse": 48056242.5
+    }
+  ],
+  "logistic": {
+    "accuracy_train": 0.7986,
+    "accuracy_test": 0.7508,
+    "f1_macro": 0.7545,
+    "confusion_matrix": [
+      [
+        157,
+        43,
+        1
+      ],
+      [
+        23,
+        141,
+        33
+      ],
+      [
+        2,
+        45,
+        145
+      ]
+    ],
+    "labels": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "bin_edges": [
+      680000.0,
+      7116666.666666666,
+      17000000.0,
+      1460000000.0
+    ]
+  }
+}
